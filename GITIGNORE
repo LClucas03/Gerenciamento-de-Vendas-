@@ -1,0 +1,30 @@
+
+### Arquivo `.gitignore`
+
+Aqui está um exemplo de arquivo `.gitignore` que você pode usar para um projeto que não envolve arquivos binários ou temporários específicos.
+
+```gitignore
+# Ignorar arquivos e diretórios de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.swp
+*.swo
+
+# Ignorar arquivos de configuração local
+config/
+*.env
+
+# Ignorar arquivos de banco de dados locais
+*.sql
+
+# Ignorar arquivos de backup
+*.bak
+*.backup
