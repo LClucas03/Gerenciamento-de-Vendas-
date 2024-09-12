@@ -1,0 +1,19 @@
+src/
+│
+├── config/               # Arquivos de configuração
+│   ├── db_config.py       # Configuração de banco de dados para Python
+│
+├── models/               # Modelos que representam tabelas do banco de dados
+│   ├── cliente.py         # Modelo de cliente
+│   ├── produto.py         # Modelo de produto
+│   ├── venda.py           # Modelo de venda
+│
+├── controllers/          # Lógica de controle
+│   ├── cliente_controller.py   # Lógica para clientes
+│   ├── produto_controller.py   # Lógica para produtos
+│   ├── venda_controller.py     # Lógica para vendas
+│
+├── utils/                # Utilitários e funções auxiliares
+│   ├── helpers.py        # Funções auxiliares
+│
+└── main.py               # Ponto de entrada principal da aplicação
