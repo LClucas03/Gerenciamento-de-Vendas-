@@ -1,0 +1,39 @@
+# Sistema de Gerenciamento de Vendas
+
+Este projeto é um sistema de gerenciamento de vendas, incluindo clientes, produtos e vendas. Ele é projetado para registrar e consultar informações sobre vendas realizadas.
+
+## Estrutura do Banco de Dados
+
+O banco de dados `sistema_vendas` contém três tabelas principais:
+
+1. **Clientes**
+   - `id_cliente`: Identificador único do cliente.
+   - `nome`: Nome do cliente.
+   - `email`: E-mail do cliente (único).
+   - `telefone`: Telefone do cliente.
+
+2. **Produtos**
+   - `id_produto`: Identificador único do produto.
+   - `nome`: Nome do produto.
+   - `preco`: Preço do produto.
+   - `quantidade_estoque`: Quantidade disponível em estoque.
+
+3. **Vendas**
+   - `id_venda`: Identificador único da venda.
+   - `id_cliente`: Identificador do cliente (chave estrangeira).
+   - `id_produto`: Identificador do produto (chave estrangeira).
+   - `quantidade_vendida`: Quantidade vendida.
+   - `data_venda`: Data da venda.
+
+## Configuração
+
+1. **Criação do Banco de Dados:**
+
+   Execute o script SQL para criar o banco de dados e as tabelas:
+   ```sql
+   -- Criação do Banco de Dados
+   CRIAR BANCO DE DADOS sistema_vendas;
+   USE sistema_vendas;
+
+   -- Criação das Tabelas
+   -- (Coloque aqui o script de criação das tabelas)
